@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Dealerships</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+  <style>
+    .contact-card {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 28px;
+      border-radius: 12px;
+      background: white;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    .contact-image {
+      display: block;
+      max-width: 180px;
+      max-height: 180px;
+      object-fit: contain;
+      margin: 0 auto 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light"
+       style="background-color: darkturquoise;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <strong>Dealerships</strong>
+      </a>
+
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navbarText"
+              aria-controls="navbarText" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/contact">
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <section class="contact-card text-center">
+      <img
+        class="contact-image"
+        src="/static/contactus.png"
+        alt="Contact our dealership team">
+
+      <h1 class="mb-3">Contact Us</h1>
+      <p class="lead">
+        Have a question about our dealerships? We'd be happy to help.
+      </p>
+
+      <hr>
+
+      <h2 class="h5">Customer Support</h2>
+      <p>
+        Email:
+        <a href="mailto:support@example.com">support@example.com</a>
+      </p>
+
+      <p>
+        Phone:
+        <a href="tel:+18005550199">+1 800-555-0199</a>
+      </p>
+
+      <p class="text-muted">
+        Sample contact details — replace these with the official details
+        required by your assignment.
+      </p>
+
+      <a href="/" class="btn btn-info mt-2">Back to Home</a>
+    </section>
+  </main>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
